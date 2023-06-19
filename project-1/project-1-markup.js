@@ -13,7 +13,7 @@ Hints:
   just like in HTML. In the slide, I have it set to 40px
  */
 const logo = (
-    <img src="./react-logo.png" width="40px"></img>
+    <img src="/static/img/react-logo.png" width="40px"></img>
 )
 const page = (
     <div>
