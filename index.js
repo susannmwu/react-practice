@@ -1,5 +1,5 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
+// import React from "react"
+// import ReactDOM from "react-dom/client"
 
 // Alternatively, we could use this: 
 // ReactDOM.render(<hi>Hello, everyone</hi>, document.querySelector("#root"))
@@ -141,18 +141,18 @@ import ReactDOM from "react-dom/client"
 // Don't worry about styling yet - it'll just be plain looking HTML for now 
 
 
-const navbar = (
-    <nav>
-        <h1>KittyCats</h1>
-        <ul>
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-)
+// const navbar = (
+//     <nav>
+//         <h1>KittyCats</h1>
+//         <ul>
+//             <li>Pricing</li>
+//             <li>About</li>
+//             <li>Contact</li>
+//         </ul>
+//     </nav>
+// )
 
-ReactDOM.render(navbar, document.getElementById("root"))
+// ReactDOM.render(navbar, document.getElementById("root"))
  
 //React 18
 
@@ -177,13 +177,13 @@ to our div#root using .append() instead of ReactDOM
 
 // const paragraph = (
 //     <div>
-//         <h1>Susan's page</h1>
+//         <h1>Susan's Interests</h1>
 //         <ul>
-//             <li>Career</li>
-//             <li>Hobbies</li>
-//             <li>Contact</li>
+//             <li>Programming</li>
+//             <li>Pickleball</li>
+//             <li>Coffee</li>
 //         </ul>
 //     </div>
 // )
 
-// ReactDOM.append(paragraph, document.getElementById("root"))
+// ReactDOM.render(paragraph, document.getElementById("root"))
